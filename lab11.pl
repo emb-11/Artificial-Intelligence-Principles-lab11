@@ -20,7 +20,6 @@ start :-
     write('6- Delete all letters'), nl,
     write('7- Exit'), nl,
     write('Enter your choice....'), nl,
-    write('|: '),
     read(Choice),
     action(Choice).
 
